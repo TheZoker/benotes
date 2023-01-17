@@ -99,6 +99,18 @@ label.label {
     opacity: 0;
 }
 
+.menu-bar {
+    position: sticky;
+    top: 58px;
+    z-index: 100;   
+}
+
+@screen md {
+    .menu-bar {
+        top: 63px;
+    }
+}
+
 .open-sans {
     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
